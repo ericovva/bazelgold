@@ -133,6 +133,31 @@ let tab = function () {
             item.classList.contains(tabName) ? item.classList.add('is-active') : item.classList.remove('is-active');
         })
     }
+    $(document).on('submit', function (event) {
+      event.preventDefault();
+      var user_name    = $('.contacts__wrap input[name=fio]').val();
+      var user_tel   = $('.contacts__wrap input[name=tel]').val();
+      var text_comment = $('.contacts-bottom input[name=comment]').val();
+      // отправляем данные
+      $.ajax({
+          url: "send.php", // куда отправляем
+          type: "post", // метод передачи
+          dataType: "json", // тип передачи данных
+          data: { // что отправляем
+              "user_name":    user_name,
+              "user_tel":   user_tel,
+              "text_comment": text_comment
+          },
+          // после получения ответа сервера
+          success: function(data){
+              alert(data.result); // выводим ответ сервера
+          }
+      });
+  });
 };
+$(".zoom a").fancybox();
+	$(".license a").fancybox();
+	$(".sert-r a").fancybox();
+
 
 tab();
