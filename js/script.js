@@ -104,7 +104,7 @@ $(document).ready(function(){
 $(document).on('click', '.video-btn', function() {
   var $video = $('#video'),
     src = $video.attr('src');
-  $video.attr('src', src + '&autoplay=1');
+  $video.attr('src', src + '&autoplay=1&origin=http://bazelgold.ru');
 });
 $("#nonevideo").on("click", function(){
   $("#nonevideo").addClass("video-dn");
