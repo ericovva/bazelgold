@@ -1,535 +1,551 @@
 <!DOCTYPE HTML>
 <html lang="ru">
-  <head>
+
+<head>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="slick/slick.css">
     <link rel="stylesheet" href="slick/slick-theme.css">
     <link rel="stylesheet" href="css/min/bootstrap.min.css">
-    <meta charset="utf-8"/> 
-    <title>Название страницы</title>
-  </head>
-    <body>
+    <meta charset="utf-8" />
 
-      <header class="header">
+    <title>Название страницы</title>
+</head>
+
+<body>
+    <div class="popup_window">
+        <div class="inside_container">
+            <p id="popup_text" class="error">Ошибка</p>
+        </div>
+    </div>
+    <header class="header">
         <div class="header-top">
-          <div class="header-top-sochial">
-            <a href="#" class="sochial"><img src="icons/fb-icon.png"></a>
-            <a href="#" class="c-sochial"><img src="icons/tg-icons.png"></a>
-            <a href="#" class="sochial"><img src="icons/inst-icons.png"></a>
-          </div>
-          <div class="header-top-mobile">
-            <div class="header-top-mobile__menu">
-              <span></span>
+            <div class="header-top-sochial">
+                <a href="#" class="sochial"><img src="icons/fb-icon.png"></a>
+                <a href="#" class="c-sochial"><img src="icons/tg-icons.png"></a>
+                <a href="#" class="sochial"><img src="icons/inst-icons.png"></a>
             </div>
-          </div>
-          <div class="header-top-logo">
-            <div class="header-top__logo">
-              <img src="images/logo.png">
+            <div class="header-top-mobile">
+                <div class="header-top-mobile__menu">
+                    <span></span>
+                </div>
             </div>
-            <span class="header-top__title">Bazel Jewellery</span>
-          </div>
-          <div class="header-top-contacts">
-            <div class="header-top-mobile__phone">
-              <a href="tel:+74956448414"></a>
+            <div class="header-top-logo">
+                <div class="header-top__logo">
+                    <img src="images/logo.png">
+                </div>
+                <span class="header-top__title">Bazel Jewellery</span>
             </div>
-            <div class="header-top__phone">
-              <a href="tel:+74956448414">+7 (495) 644-84-14</a>
+            <div class="header-top-contacts">
+                <div class="header-top-mobile__phone">
+                    <a href="tel:+79255369756" class="tel"><img src="icons/phone-icons.png"></a>
+
+                </div>
+                <div class="header-top__phone">
+                    <a href="tel:+79255369756" class="tel"><img src="icons/phone-icons.png"></a>
+                    <a href="tel:+79255369756">+7 (925) 536-97-56</a>
+                </div>
+                <div id="ordercallhref" class="header-top-btn">
+                    <a href="#ordercall" class="btn-b">ЗАКАЗ ЗВОНКА</a>
+                </div>
             </div>
-            <div id="ordercallhref" class="header-top-btn">
-              <a href="#ordercall" class="btn-b">ЗАКАЗ ЗВОНКА</a>
-            </div>
-          </div>
         </div>
         <div class="header-bottom">
-          <nav>
-            <ul>
-              <li id="abouthref"><a href="#about">о нас</a></li>
-              <li id="producthref"><a href="#product">наши работы</a></li>
-              <li id="watchfotohref"><a href="#watchfoto">видео и фото</a></li>
-              <li id="contakthref"><a href="#contakt">контакты</a></li>
-            </ul>
-          </nav>
+            <nav>
+                <ul>
+                    <li id="abouthref"><a href="#about">о нас</a></li>
+                    <li id="producthref"><a href="#product">наши работы</a></li>
+                    <li id="watchfotohref"><a href="#watchfoto">видео и фото</a></li>
+                    <li id="contakthref"><a href="#contakt">контакты</a></li>
+                </ul>
+            </nav>
         </div>
-      </header>
+    </header>
 
-      <section class="top-sliders">
+    <section class="top-sliders">
         <div class="arrows">
-          <button type="button" class="arrows-prev top-slider-prev"></button>
-          <button type="button" class="arrows-next top-slider-next"></button>
+            <button type="button" class="arrows-prev top-slider-prev"></button>
+            <button type="button" class="arrows-next top-slider-next"></button>
         </div>
         <div class="top-sliders__wrap">
-          <div class="top-sliders-block">
-            <div class="top-sliders__bground">
-              <img src="images/slider-img-1.jpg">
-            </div>
-            <div class="top-sliders-content__wrap section-wrap">
-              <div class="top-sliders__content">
-                <p>Lorem ipsum dolor sit amet elit sed slide 1</p>
-                <span>Lorem ipsum dolor sit amet, consectetur </span>
-                <div class="btn-border">
-                  <div id="watchvideohref1" class="btn__border">
-                    <a href="#watchvideo" class="btn-s">СМОТРЕТЬ ВИДЕО</a>
-                  </div>
+            <div class="top-sliders-block">
+                <div class="top-sliders__bground">
+                    <img src="images/slider-img-1.jpg">
                 </div>
-              </div>
-            </div>
-          </div>
-          <div class="top-sliders-block">
-            <div class="top-sliders__bground">
-              <img src="images/slider-img-2.jpg">
-            </div>
-            <div class="top-sliders-content__wrap section-wrap">
-              <div class="top-sliders__content">
-                <p>Lorem ipsum dolor sit amet elit sed slide 2</p>
-                <span>Lorem ipsum dolor sit amet, consectetur </span>
-                <div class="btn-border">
-                  <div id="watchvideohref2" class="btn__border">
-                    <a href="#watchvideo" class="btn-s">СМОТРЕТЬ ВИДЕО</a>
-                  </div>
+                <div class="top-sliders-content__wrap section-wrap">
+                    <div class="top-sliders__content">
+                        <p>Lorem ipsum dolor sit amet elit sed slide 1</p>
+                        <span>Lorem ipsum dolor sit amet, consectetur </span>
+                        <div class="btn-border">
+                            <div id="watchvideohref1" class="btn__border">
+                                <a href="#watchvideo" class="btn-s">СМОТРЕТЬ ВИДЕО</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
-          <div class="top-sliders-block">
-            <div class="top-sliders__bground">
-              <img src="images/slider-img-3.jpg">
-            </div>
-            <div class="top-sliders-content__wrap section-wrap">
-              <div class="top-sliders__content">
-                <p>Lorem ipsum dolor sit amet elit sed slide 3</p>
-                <span>Lorem ipsum dolor sit amet, consectetur </span>
-                <div class="btn-border">
-                  <div id="watchvideohref3" class="btn__border">
-                    <a href="#watchvideo" class="btn-s">СМОТРЕТЬ ВИДЕО</a>
-                  </div>
+            <div class="top-sliders-block">
+                <div class="top-sliders__bground">
+                    <img src="images/slider-img-2.jpg">
                 </div>
-              </div>
+                <div class="top-sliders-content__wrap section-wrap">
+                    <div class="top-sliders__content">
+                        <p>Lorem ipsum dolor sit amet elit sed slide 2</p>
+                        <span>Lorem ipsum dolor sit amet, consectetur </span>
+                        <div class="btn-border">
+                            <div id="watchvideohref2" class="btn__border">
+                                <a href="#watchvideo" class="btn-s">СМОТРЕТЬ ВИДЕО</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
+            <div class="top-sliders-block">
+                <div class="top-sliders__bground">
+                    <img src="images/slider-img-3.jpg">
+                </div>
+                <div class="top-sliders-content__wrap section-wrap">
+                    <div class="top-sliders__content">
+                        <p>Lorem ipsum dolor sit amet elit sed slide 3</p>
+                        <span>Lorem ipsum dolor sit amet, consectetur </span>
+                        <div class="btn-border">
+                            <div id="watchvideohref3" class="btn__border">
+                                <a href="#watchvideo" class="btn-s">СМОТРЕТЬ ВИДЕО</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </section>
+    </section>
 
-      <section id="about" class="about section-wrap">
+    <section id="about" class="about section-wrap">
         <div class="about__wrap border-wrap__block border-wrap__block-light">
-          <div class="about-column">
-            <div class="about-column-img__wrap border-wrap__block-light">
-              <div class="about-column-img border-wrap__right border-wrap__block">
-                <img src="images/about-1.jpg">
-              </div>
+            <div class="about-column">
+                <div class="about-column-img__wrap border-wrap__block-light">
+                    <div class="about-column-img border-wrap__right border-wrap__block">
+                        <img src="images/about-1.jpg">
+                    </div>
+                </div>
+                <div class="about-column-text">
+                    <p>Bazel jewellery – это мастерская-бутик по созданию неповторимых ювелирных шедевров.</p>
+                    <p>Под руками наших мастеров драгоценные камни и металлы обретают бессмертие, заключенное в изящном и многоликом украшении, ведь мы убеждены, что ювелирное изделие – это яркая частица вселенной, увиденная сквозь призму определенного темперамента
+                        творца. В нашем творчестве мы руководствуемся высочайшим профессионализмом и бережным отношением к мировым ювелирным традициям и богатому культурному наследию. Нам повезло ежедневно создавать уникальные произведения искусства,
+                        которые в зависимости от повода и дарителя рискуют стать легендарными в чьей-то судьбе.
+                    </p>
+                </div>
             </div>
-            <div class="about-column-text">
-              <p>Bazel jewellery – это мастерская-бутик по созданию неповторимых ювелирных шедевров.</p>
-              <p>Под руками наших мастеров драгоценные камни и металлы обретают бессмертие, заключенное в изящном и многоликом украшении, ведь мы убеждены, что ювелирное изделие – это яркая частица вселенной, увиденная сквозь призму определенного темперамента творца.
-
-В нашем творчестве мы руководствуемся высочайшим профессионализмом и бережным отношением к мировым ювелирным традициям и богатому культурному наследию.
-
-Нам повезло ежедневно создавать уникальные произведения искусства, которые в зависимости от повода и дарителя рискуют стать легендарными в чьей-то судьбе.
-</p>
+            <div class="about-column">
+                <h2 class="headline-two">О нас</h2>
+                <div class="about-column-text">
+                    <p>Мы в Bazel jewellery убеждены, что ювелирные изделия – это всегда нечто большее, чем просто дорогой подарок.</p>
+                    <p>Мы - бренд, за которым стоит команда преданных делу профессионалов, для которых приверженность многолетним ювелирным традициям и бережное отношение к пожеланиям заказчика не пустые слова. В сердце нашей мастерской рождаются уникальные
+                        произведения ювелирного искусства, созданные с учетом самых современных тенденций и технологий в отрасли. Каждый новый заказ – увлекательны вызов команде, где наряду с созданием ювелирного произведения, происходит зарождение удивительной
+                        истории, которую начинаете именно вы, преподнеся в дар украшение от Bazel jewellery. Ведь говорят, что источник счастья заключен не в самом подарке, а в любви, с которой его преподнесли.
+                    </p>
+                </div>
+                <div class="about-column-img__wrap">
+                    <div class="about-column-img border-wrap__left">
+                        <img src="images/about-2.jpg">
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="about-column">
-            <h2 class="headline-two">О нас</h2>
-            <div class="about-column-text">
-              <p>Мы в Bazel jewellery убеждены, что ювелирные изделия – это всегда нечто большее, чем просто дорогой подарок.</p>
-              <p>Мы - бренд, за которым стоит команда преданных делу профессионалов, для которых приверженность многолетним ювелирным традициям и бережное отношение к пожеланиям заказчика не пустые слова.
-
-В сердце нашей мастерской рождаются уникальные произведения
-ювелирного искусства, созданные с учетом самых современных тенденций и
-технологий в отрасли. 
-
-Каждый новый заказ – увлекательны вызов команде, где наряду с созданием ювелирного произведения, происходит зарождение удивительной истории,
-которую начинаете именно вы, преподнеся в дар украшение от Bazel jewellery. Ведь говорят, что источник счастья заключен не в самом подарке, а в любви, с которой его преподнесли. 
-</p>
-            </div>
-            <div class="about-column-img__wrap">
-              <div class="about-column-img border-wrap__left">
-                <img src="images/about-2.jpg">
-              </div>
-            </div>
-          </div>
         </div>
-      </section>
+    </section>
 
-      <section id="product" class="product section-wrap bg-gray">
+    <section id="product" class="product section-wrap bg-gray">
         <div class="product-title">
-          <h2 class="headline-two">Наши работы</h2>
+            <h2 class="headline-two">Наши работы</h2>
         </div>
         <div class="product-container">
-          <div class="arrows">
-            <button type="button" class="arrows-prev product-prev"></button>
-            <button type="button" class="arrows-next product-next"></button>
-          </div>
-          <div class="tabs">
-            <div class="tabs__nav tabs-nav">
-              <div class="tabs-nav__item is-active" data-tab-name="tab-all">Все</div>
-              <div class="tabs-nav__item" data-tab-name="tab-earrings">Серьги</div>
-              <div class="tabs-nav__item" data-tab-name="tab-rings">Кольца</div>
-              <div class="tabs-nav__item" data-tab-name="tab-bracelet">Браслеты</div>
-              <div class="tabs-nav__item" data-tab-name="tab-kit">Комплекты</div>
+            <div class="arrows">
+                <button type="button" class="arrows-prev product-prev"></button>
+                <button type="button" class="arrows-next product-next"></button>
             </div>
-            <div class="tabs__content">
-              <div class="tab is-active tab-all">
-                <div class="product-all__wrap product-tab-all">
-                  <div class="product-preview">
-                    <div class="product-preview__img">
-                      <img src="images/prod/1.jpg" alt="">
-                    </div>
-                    <a href="#">
-                      <div class="product-preview__title">
-                        <p>есть в наличии</p>
-                        <span class="prod-back"></span>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="product-preview">
-                    <div class="product-preview__img">
-                      <img src="images/prod/2.jpg" alt="">
-                    </div>
-                    <a href="#">
-                      <div class="product-preview__title">
-                        <p>есть в наличии</p>
-                        <span class="prod-back"></span>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="product-preview">
-                    <div class="product-preview__img">
-                      <img src="images/prod/3.jpg" alt="">
-                    </div>
-                    <a href="#">
-                      <div class="product-preview__title">
-                        <p>есть в наличии</p>
-                        <span class="prod-back"></span>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="product-preview">
-                    <div class="product-preview__img">
-                      <img src="images/prod/4.jpg" alt="">
-                    </div>
-                    <a href="#">
-                      <div class="product-preview__title">
-                        <p>есть в наличии</p>
-                        <span class="prod-back"></span>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="product-preview">
-                    <div class="product-preview__img">
-                      <img src="images/prod/5.jpg" alt="">
-                    </div>
-                    <a href="#">
-                      <div class="product-preview__title">
-                        <p>есть в наличии</p>
-                        <span class="prod-back"></span>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="product-preview">
-                    <div class="product-preview__img">
-                      <img src="images/prod/6.jpg" alt="">
-                    </div>
-                    <a href="#">
-                      <div class="product-preview__title">
-                        <p>есть в наличии</p>
-                        <span class="prod-back"></span>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="product-preview">
-                    <div class="product-preview__img">
-                      <img src="images/prod/7.jpg" alt="">
-                    </div>
-                    <a href="#">
-                      <div class="product-preview__title">
-                        <p>есть в наличии</p>
-                        <span class="prod-back"></span>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="product-preview">
-                    <div class="product-preview__img">
-                      <img src="images/prod/5.jpg" alt="">
-                    </div>
-                    <a href="#">
-                      <div class="product-preview__title">
-                        <p>есть в наличии</p>
-                        <span class="prod-back"></span>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="product-preview">
-                    <div class="product-preview__img">
-                      <img src="images/prod/6.jpg" alt="">
-                    </div>
-                    <a href="#">
-                      <div class="product-preview__title">
-                        <p>есть в наличии</p>
-                        <span class="prod-back"></span>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="product-preview">
-                    <div class="product-preview__img">
-                      <img src="images/prod/7.jpg" alt="">
-                    </div>
-                    <a href="#">
-                      <div class="product-preview__title">
-                        <p>есть в наличии</p>
-                        <span class="prod-back"></span>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="product-preview">
-                    <div class="product-preview__img">
-                      <img src="images/prod/8.jpg" alt="">
-                    </div>
-                    <a href="#">
-                      <div class="product-preview__title">
-                        <p>есть в наличии</p>
-                        <span class="prod-back"></span>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="product-preview">
-                    <div class="product-preview__img">
-                      <img src="images/prod/8.jpg" alt="">
-                    </div>
-                    <a href="#">
-                      <div class="product-preview__title">
-                        <p>есть в наличии</p>
-                        <span class="prod-back"></span>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="product-preview">
-                    <div class="product-preview__img">
-                      <img src="images/prod/1.jpg" alt="">
-                    </div>
-                    <a href="#">
-                      <div class="product-preview__title">
-                        <p>есть в наличии</p>
-                        <span class="prod-back"></span>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="product-preview">
-                    <div class="product-preview__img">
-                      <img src="images/prod/2.jpg" alt="">
-                    </div>
-                    <a href="#">
-                      <div class="product-preview__title">
-                        <p>есть в наличии</p>
-                        <span class="prod-back"></span>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="product-preview">
-                    <div class="product-preview__img">
-                      <img src="images/prod/3.jpg" alt="">
-                    </div>
-                    <a href="#">
-                      <div class="product-preview__title">
-                        <p>есть в наличии</p>
-                        <span class="prod-back"></span>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="product-preview">
-                    <div class="product-preview__img">
-                      <img src="images/prod/4.jpg" alt="">
-                    </div>
-                    <a href="#">
-                      <div class="product-preview__title">
-                        <p>есть в наличии</p>
-                        <span class="prod-back"></span>
-                      </div>
-                    </a>
-                  </div>
+            <div class="tabs">
+                <div class="tabs__nav tabs-nav">
+                    <div class="tabs-nav__item is-active" data-tab-name="tab-all">Все</div>
+                    <div class="tabs-nav__item" data-tab-name="tab-earrings">Серьги</div>
+                    <div class="tabs-nav__item" data-tab-name="tab-rings">Кольца</div>
+                    <div class="tabs-nav__item" data-tab-name="tab-bracelet">Браслеты</div>
+                    <div class="tabs-nav__item" data-tab-name="tab-kit">Комплекты</div>
                 </div>
-              </div>
-              <div class="tab tab-earrings">111
-              </div>
-              <div class="tab tab-rings">222
-              </div>
-              <div class="tab tab-bracelet">333
-              </div>
-              <div class="tab tab-kit">444
-              </div>
+                <div class="tabs__content">
+                    <div class="tab is-active tab-all">
+                        <div class="product-all__wrap product-tab-all">
+                            <div class="product-preview">
+                                <div class="product-preview__img">
+                                    <img src="images/prod/1.jpg" alt="">
+                                </div>
+                                <a href="#">
+                                    <div class="product-preview__title">
+                                        <p>есть в наличии</p>
+                                        <span class="prod-back"></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product-preview">
+                                <div class="product-preview__img">
+                                    <img src="images/prod/2.jpg" alt="">
+                                </div>
+                                <a href="#">
+                                    <div class="product-preview__title">
+                                        <p>есть в наличии</p>
+                                        <span class="prod-back"></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product-preview">
+                                <div class="product-preview__img">
+                                    <img src="images/prod/3.jpg" alt="">
+                                </div>
+                                <a href="#">
+                                    <div class="product-preview__title">
+                                        <p>есть в наличии</p>
+                                        <span class="prod-back"></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product-preview">
+                                <div class="product-preview__img">
+                                    <img src="images/prod/4.jpg" alt="">
+                                </div>
+                                <a href="#">
+                                    <div class="product-preview__title">
+                                        <p>есть в наличии</p>
+                                        <span class="prod-back"></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product-preview">
+                                <div class="product-preview__img">
+                                    <img src="images/prod/5.jpg" alt="">
+                                </div>
+                                <a href="#">
+                                    <div class="product-preview__title">
+                                        <p>есть в наличии</p>
+                                        <span class="prod-back"></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product-preview">
+                                <div class="product-preview__img">
+                                    <img src="images/prod/6.jpg" alt="">
+                                </div>
+                                <a href="#">
+                                    <div class="product-preview__title">
+                                        <p>есть в наличии</p>
+                                        <span class="prod-back"></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product-preview">
+                                <div class="product-preview__img">
+                                    <img src="images/prod/7.jpg" alt="">
+                                </div>
+                                <a href="#">
+                                    <div class="product-preview__title">
+                                        <p>есть в наличии</p>
+                                        <span class="prod-back"></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product-preview">
+                                <div class="product-preview__img">
+                                    <img src="images/prod/5.jpg" alt="">
+                                </div>
+                                <a href="#">
+                                    <div class="product-preview__title">
+                                        <p>есть в наличии</p>
+                                        <span class="prod-back"></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product-preview">
+                                <div class="product-preview__img">
+                                    <img src="images/prod/6.jpg" alt="">
+                                </div>
+                                <a href="#">
+                                    <div class="product-preview__title">
+                                        <p>есть в наличии</p>
+                                        <span class="prod-back"></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product-preview">
+                                <div class="product-preview__img">
+                                    <img src="images/prod/7.jpg" alt="">
+                                </div>
+                                <a href="#">
+                                    <div class="product-preview__title">
+                                        <p>есть в наличии</p>
+                                        <span class="prod-back"></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product-preview">
+                                <div class="product-preview__img">
+                                    <img src="images/prod/8.jpg" alt="">
+                                </div>
+                                <a href="#">
+                                    <div class="product-preview__title">
+                                        <p>есть в наличии</p>
+                                        <span class="prod-back"></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product-preview">
+                                <div class="product-preview__img">
+                                    <img src="images/prod/8.jpg" alt="">
+                                </div>
+                                <a href="#">
+                                    <div class="product-preview__title">
+                                        <p>есть в наличии</p>
+                                        <span class="prod-back"></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product-preview">
+                                <div class="product-preview__img">
+                                    <img src="images/prod/1.jpg" alt="">
+                                </div>
+                                <a href="#">
+                                    <div class="product-preview__title">
+                                        <p>есть в наличии</p>
+                                        <span class="prod-back"></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product-preview">
+                                <div class="product-preview__img">
+                                    <img src="images/prod/2.jpg" alt="">
+                                </div>
+                                <a href="#">
+                                    <div class="product-preview__title">
+                                        <p>есть в наличии</p>
+                                        <span class="prod-back"></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product-preview">
+                                <div class="product-preview__img">
+                                    <img src="images/prod/3.jpg" alt="">
+                                </div>
+                                <a href="#">
+                                    <div class="product-preview__title">
+                                        <p>есть в наличии</p>
+                                        <span class="prod-back"></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product-preview">
+                                <div class="product-preview__img">
+                                    <img src="images/prod/4.jpg" alt="">
+                                </div>
+                                <a href="#">
+                                    <div class="product-preview__title">
+                                        <p>есть в наличии</p>
+                                        <span class="prod-back"></span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab tab-earrings">111
+                    </div>
+                    <div class="tab tab-rings">322
+                    </div>
+                    <div class="tab tab-bracelet">333
+                    </div>
+                    <div class="tab tab-kit">444
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </section>
+    </section>
 
-      <section id="watchvideo" class="video section-wrap">
+    <section id="watchvideo" class="video section-wrap">
         <div class="video__wrap border-wrap__block border-wrap__block-light">
-          <div class="video-wrapper">
-            <div class="video-text">
-              <h2 class="headline-two">Lorem Ipsum</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magnaUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            </div>
-          </div>
-          <div class="video-wrapper">
-            <div class="video-container border-wrap__block">
-              <div class="video-bg">
-                <!-- <img src="images/video-img.jpg"> -->
-                <iframe id="video" src="https://www.youtube.com/embed/wKWjAz5WwKA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <div id="nonevideo" class="video-btn">
-                  <img src="images/play-button.png">
+            <div class="video-wrapper">
+                <div class="video-text">
+                    <h2 class="headline-two">Lorem Ipsum</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magnaUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
-              </div>
             </div>
-          </div>
+            <div class="video-wrapper">
+                <div class="video-container border-wrap__block">
+                    <div class="video-bg">
+                        <!-- <img src="images/video-img.jpg"> -->
+                        <iframe id="video" src="https://www.youtube.com/embed/wKWjAz5WwKA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div id="nonevideo" class="video-btn">
+                            <img src="images/play-button.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </section>
+    </section>
 
-      <section id="watchfoto" class="insta section-wrap bg-gray">
+    <section id="watchfoto" class="insta section-wrap bg-gray">
         <div class="insta-container">
-          <div class="insta-header">
-            <h2 class="headline-two">Базель в Инстаграме</h2>
-          </div>
-          <div class="insta-body">
-            <div class="insta__pictures border-wrap__left">
-              <div class="insta-picture">
-                <img src="images/insta/women-1.jpg">
-              </div>
-              <div class="insta-picture">
-                <img src="images/insta/women-2.jpg">
-              </div>
-              <div class="insta-picture">
-                <img src="images/insta/women-3.jpg">
-              </div>
-              <div class="insta-picture">
-                <img src="images/insta/women-4.jpg">
-              </div>
-              <div class="insta-picture">
-                <img src="images/insta/women-5.jpg">
-              </div>
-              <div class="insta-picture">
-                <img src="images/insta/women-4.jpg">
-              </div>
-              <div class="insta-picture">
-                <img src="images/insta/women-2.jpg">
-              </div>
-              <div class="insta-picture">
-                <img src="images/insta/women-3.jpg">
-              </div>
-              <div class="insta-picture">
-                <img src="images/insta/women-1.jpg">
-              </div>
+            <div class="insta-header">
+                <h2 class="headline-two">Базель в Инстаграме</h2>
             </div>
-          </div>
-          <div class="insta-footer">
-            <div class="insta-footer__wrap">
-              <div class="btn-border">
-                <div id="watchvideohrefs" class="btn__border">
-                  <a href="#watchvideo" class="btn-s">СМОТРЕТЬ ВИДЕО</a>
+            <div class="insta-body">
+                <div class="insta__pictures border-wrap__left">
+                    <div class="insta-picture">
+                        <img src="images/insta/women-1.jpg">
+                    </div>
+                    <div class="insta-picture">
+                        <img src="images/insta/women-2.jpg">
+                    </div>
+                    <div class="insta-picture">
+                        <img src="images/insta/women-3.jpg">
+                    </div>
+                    <div class="insta-picture">
+                        <img src="images/insta/women-4.jpg">
+                    </div>
+                    <div class="insta-picture">
+                        <img src="images/insta/women-5.jpg">
+                    </div>
+                    <div class="insta-picture">
+                        <img src="images/insta/women-4.jpg">
+                    </div>
+                    <div class="insta-picture">
+                        <img src="images/insta/women-2.jpg">
+                    </div>
+                    <div class="insta-picture">
+                        <img src="images/insta/women-3.jpg">
+                    </div>
+                    <div class="insta-picture">
+                        <img src="images/insta/women-1.jpg">
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
+            <div class="insta-footer">
+                <div class="insta-footer__wrap">
+                    <div class="btn-border">
+                        <div id="watchvideohrefs" class="btn__border">
+                            <a href="#watchvideo" class="btn-s">СМОТРЕТЬ ВИДЕО</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </section>
+    </section>
 
-      <section class="callback section-wrap">
+    <section class="callback section-wrap">
         <div id="ordercall" class="callback__wrap">
-          <form action="#" class="callback-form">
-            <div class="callback-text">
-              <p class="callback-title">ОСТАВЬТЕ СВОЙ НОМЕР</p>
-              <span class="callback-desk">и мы оперативно вам позвоним!</span>
-            </div>
-            <label class="callback-phone" for="phone"></label>
-            <input class="callback-number" type="tel" id="phone">
-            <div class="btn-border">
-              <button class="btn-s btn__border">
+            <form action="#" class="callback-form">
+                <div class="callback-text">
+                    <p class="callback-title">ОСТАВЬТЕ СВОЙ НОМЕР</p>
+                    <span class="callback-desk">и мы оперативно вам позвоним!</span>
+                </div>
+
+                <label class="callback-phone" for="phone"></label>
+                <input class="callback-number" type="tel" id="phone">
+                <div class="btn-border">
+                    <button class="btn-s btn__border">
                 ЗАКАЗАТЬ ЗВОНОК
               </button>
-            </div>
-          </form>
+                </div>
+            </form>
         </div>
-      </section>
+    </section>
+    <section id="contakt" class="contacts section-wrap">
+        <div class="m-column-2">
+            <div class="form-header" id="main-form">
+                <h2 class="headline-two">Контакты</h2>
+                <p class="contacts-address"></p>
+                <div class="contacts-tel" id="cnt-tel">
+                    <p class="contacts-tel">2-я Звенигородская улица, дом 13, строение 37, Москва<br> +7 (925) 536-97-56
+                        <p>
+                </div>
+            </div>
+            <div class="section-4--form" id="main-form">
+                <div class="input-container">
+                    <label>Как к Вам обращаться?</label>
+                    <input id="name-input" type="text" placeholder="Имя и фамилия">
+                </div>
+                <div class="input-container">
+                    <label>Ваш телефон</label>
+                    <input id="phone-input" type="text" placeholder="Рабочий или мобильный">
+                </div>
 
-      <section id="contakt" class="contacts section-wrap">
-        <div class="contacts__wrap">
-          <h2 class="headline-two">Контакты</h2>
-          <p class="contacts-address"></p>
-          <span class="contacts-tel">2-я Звенигородская улица, дом 13, строение 37, Москва</span>
-          <span class="contacts-tel">+7 (495) 644-84-14</span>
-          <form action="" class="contacts-form">
-            <div class="contacts-top">
-              <div class="contacts-top__wrap">
-                <label class="contacts-name" for="name">Имя</label>
-                <input class="contacts-name-input" type="text" id="name">
-              </div>
-              <div class="contacts-top__wrap">
-                <label class="contacts-phone" for="phone">Телефон</label>
-                <input class="contacts-phone-input" type="tel" id="phone">
-              </div>
+                <div class="input-container">
+                    <label>Ваш email</label>
+                    <input id="email-input" type="text" placeholder="Почта">
+                </div>
+
+                <div class="input-container">
+                    <label>Ваш комментарий
+                    </label>
+                    <input id="comment-input" type="text" placeholder="Комментарий">
+                </div>
+
+                <div class="m-button" id="main-form__button">
+                    <p>Оставить заявку</p>
+                </div>
+
+                <p class="section-4--form--hint">
+                    Оставляя заявку, Вы даете согласие на обработку Ваших персональных данных.
+                </p>
             </div>
-            <div class="contacts-bottom">
-              <input class="contacts-text" type="tel" id="phone">
-            </div>
-            <div class="btn-border">
-              <div class="btn__border">
-                <button class="btn-s">
-                  Отправить
-                </button>
-              </div>
-            </div>
-          </form>
         </div>
-      </section>
+    </section>
 
-      <section class="map">
+    <section class="map">
         <div class="map__wrap">
             <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ac36a232a211a18b826e3abb8302999e3840f69d6e1d050063b928ae412759bc3&amp;source=constructor" width="100%" height="450" frameborder="0"></iframe>
         </div>
-      </section>
-      <footer class="footer">
+    </section>
+    <footer class="footer">
         <div class="footer__wrap">
-          <div class="footer-logo">
-            <img src="images/logo.png">
-            <span>&copy; 2019 Ювилерная студия Базель</span>
-          </div>
-          <div class="footer-contacts">
-            <div class="footer-tel">
-            +7 (495) 644-84-14
+            <div class="footer-logo">
+                <img src="images/logo.png">
+                <span>&copy; 2019 Ювелирная мастерская Базель</span>
             </div>
-            <div class="footer-address">
-              2-я Звенигородская улица, дом 13, строение 37, Москва
+            <div class="footer-contacts">
+                <div class="footer-tel">
+                    +7 (925) 536-97-56
+                </div>
+                <div class="footer-address">
+                    2-я Звенигородская улица, дом 13, строение 37, Москва
+                </div>
             </div>
-          </div>
-          <div class="footer-sochial">
-            <a href="#" class="sochial"><img src="icons/fb-icon.png"></a>
-            <a href="#" class="c-sochial"><img src="icons/tg-icons.png"></a>
-            <a href="#" class="sochial"><img src="icons/inst-icons.png"></a>
-          </div>
+            <div class="footer-sochial">
+                <a href="#" class="sochial"><img src="icons/fb-icon.png"></a>
+                <a href="#" class="c-sochial"><img src="icons/tg-icons.png"></a>
+                <a href="#" class="sochial"><img src="icons/inst-icons.png"></a>
+            </div>
         </div>
-      </footer>
+    </footer>
 
-      <div class="mobile-menu">
+    <div class="mobile-menu">
         <div class="mobile-menu__wrap">
-          <div class="mobile-menu-close__wrap">
-            <div class="mobile-menu-close">
-              <span></span>
+            <div class="mobile-menu-close__wrap">
+                <div class="mobile-menu-close">
+                    <span></span>
+                </div>
             </div>
-          </div>
-          <div class="mobile-menu-items">
-              <nav>
-                <ul>
-                  <li id="abouthref"><a href="#about">о нас</a></li>
-                  <li id="producthref"><a href="#product">наши работы</a></li>
-                  <li id="watchfotohref"><a href="#watchfoto">видео и фото</a></li>
-                  <li id="contakthref"><a href="#contakt">контакты</a></li>
-                </ul>
-              </nav>
-          </div>
+            <div class="mobile-menu-items">
+                <nav>
+                    <ul>
+                        <li id="abouthref"><a href="#about">о нас</a></li>
+                        <li id="producthref"><a href="#product">наши работы</a></li>
+                        <li id="watchfotohref"><a href="#watchfoto">видео и фото</a></li>
+                        <li id="contakthref"><a href="#contakt">контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
-      </div>
+    </div>
 
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-      <script src="slick/slick.min.js"></script>
-      <script src="js/script.js"></script>
-    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="slick/slick.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/form.bundle.js"></script>
+
+</body>
+
 </html>
